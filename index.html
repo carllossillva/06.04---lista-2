@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lista de Compras</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="titulo">
+    <h1>Lista de Compras</h1>
+    </div>
+    <hr id="linha">
+  </hr>
+    <p>
+    
+    <form>
+      <div class="inputs">
+  <div class="firstInput">
+      <input type="text" placeholder="Produto" id="produto" class="product"/>
+  </div>
+      
+  <div class="secondInput">
+      <input type="number" placeholder="Quantidade" id="quantidade" class="quant" />
+</div>
+     
+<div class="thirdInput">
+      <input type="number" placeholder="Valor" id="valor" class="value"/>
+</div>
+      
+      <p>
+      <button type="button" onclick="adicionarProduto()">Adicionar</button>
+      <button id="cleartable" >Limpar</button>
+    </form>
+    </p>
+    
+  </p>
+</div>
+    <table id="tabela">
+      <tr>
+        <th>Produto</th>
+        <th>Quantidade</th>
+        <th>Valor</th>
+      </tr>
+    </table>
+
+        <tbody id="tbody">
+        </tbody>
+    
+    
+  
+    <script src="script.js"></script>
+  </body>
+</html>
