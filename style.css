@@ -11,7 +11,7 @@ table {
     border: 1px solid #ffffff;
     text-align: left;
     padding: 8px;
-    background-color: #ebebab;
+    background-color: #d2d2a0;
     
   }
   .linha{
@@ -43,7 +43,7 @@ table {
     height: 40px;
     border-radius: 10px;
     border-color: white;
-    background-color: #ebebab;
+    background-color: #ffff70;
     color: black;
   }
   .quant{
@@ -51,7 +51,7 @@ table {
     height: 40px;
     border-radius: 10px;
     border-color: white;
-    background-color: #ebebab;
+    background-color: #ffff70;
     color: black;
   }
   .value{
@@ -59,7 +59,7 @@ table {
     height: 40px;
     border-radius: 10px;
     border-color: white;
-    background-color: #ebebab;
+    background-color: #ffff70;
     color: black;
   }
   .inputs{
